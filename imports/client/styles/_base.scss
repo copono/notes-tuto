@@ -36,3 +36,19 @@ input[type=text], input[type=email], input[type=password] {
     margin-bottom: $space;
     padding: $input-spacing;
 }
+
+div#mocha {
+    background: white;
+    border-right: 2px solid black;
+    height: 60px;
+    left: 0;
+    margin: 0;
+    overflow: auto;
+    padding: 1rem;
+    position: fixed;
+    resize: vertical;
+    top: 0;
+    width: 97%;
+    z-index: 1000;
+  }
+  
