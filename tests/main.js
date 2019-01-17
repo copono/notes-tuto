@@ -1,7 +1,12 @@
-import './users.test';
 import assert from "assert";
 
-describe("notes", function () {
+import '../imports/startup/test-config.js';
+
+import '../imports/api/users.test';
+import '../imports/api/notes.test';
+import '../imports/ui/PrivateHeader.test';
+
+describe("notesapp", function () {
   it("package.json has correct name", async function () {
     const { name } = await import("../package.json");
     assert.strictEqual(name, "notes");
