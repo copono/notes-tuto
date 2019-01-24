@@ -22,3 +22,4 @@ fourseven:scss
 meteortesting:mocha
 static-html
 jquery
+react-meteor-data

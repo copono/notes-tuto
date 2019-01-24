@@ -38,9 +38,12 @@ input[type=text], input[type=email], input[type=password] {
 }
 
 div#mocha {
+    //display: block;
     background: white;
+    opacity: .9;
     border-right: 2px solid black;
-    height: 120px;
+    height: 200px;
+    //max-height: 200;
     left: 0;
     margin: 0;
     overflow: auto;

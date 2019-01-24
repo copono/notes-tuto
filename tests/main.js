@@ -5,6 +5,8 @@ import '../imports/startup/test-config.js';
 import '../imports/api/users.test';
 import '../imports/api/notes.test';
 import '../imports/ui/PrivateHeader.test';
+import '../imports/ui/Login.test';
+import '../imports/ui/Signup.test';
 
 describe("notesapp", function () {
   it("package.json has correct name", async function () {
